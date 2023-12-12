@@ -1,38 +1,212 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+}
+
 .App {
-  text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2 {
+    color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+    padding: 10px 15px;
+    background-color: #007aff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    button:hover {
+        background-color: #005ec7;
+    }
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+th {
+    background-color: #f3f3f3;
+    color: #333333;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Navbar styles */
+.navbar-link.active {
+    color: #007aff; /* Or any other color to indicate active state */
+}
+
+
+.navbar-brand active {
+    color: #007aff; /* Or any other color to indicate active state */
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #333;
+    color: #fff;
+}
+
+    nav h2 {
+        cursor: 'pointer';
+        color: #fff;
+    }
+
+    nav div {
+        display: flex;
+        gap: 20px;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+        transition: color 0.3s;
+    }
+
+        nav a:hover {
+            color: #007aff;
+        }
+
+    /* Spacing adjustments */
+    nav + div, h2 {
+        margin-top: 40px;
+    }
+
+pre {
+    text-align: left;
+    background-color: #eee;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.main-banner {
+    background-color: #009879; 
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+    .main-banner h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    .main-banner p {
+        margin: 15px 0;
+        font-size: 1.2rem;
+    }
+
+.features {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+    .features h2 {
+        color: #333;
+        margin-bottom: 20px;
+        font-size: 2rem;
+    }
+
+    .features ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .features li {
+        margin-bottom: 10px;
+        font-size: 1.1rem;
+    }
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;
+}
+
+    footer p {
+        margin: 0;
+        font-size: 1rem;
+    }
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+        nav h2, nav div {
+            margin: 10px 0;
+        }
+
+        nav div {
+            gap: 10px;
+        }
+
+    input {
+        width: 100%;
+    }
 }
