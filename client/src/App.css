@@ -176,6 +176,78 @@ pre {
         font-size: 1.1rem;
     }
 
+.page-container {
+    background-color: #f4f6f8; /* Matching the body background */
+    padding: 20px;
+    margin-bottom: 40px; /* Space before the footer */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.page-heading {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.dashboard-info {
+    color: #333;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+.transaction-detail {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.transaction-item {
+    margin-bottom: 10px;
+}
+
+.faq-item {
+    background-color: #fff;
+    color: #333;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.faq-question {
+    font-weight: bold;
+}
+
+.faq-answer {
+    margin-top: 5px;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+    .contact-form label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .contact-form button {
+        width: 100%;
+    }
 
 footer {
     background-color: #333;

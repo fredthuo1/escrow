@@ -6,6 +6,10 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import Dashboard from './components/Dashboard';
+import TransactionDetail from './components/TransactionDetail';
+import FAQ from './components/FAQ';
+import Contact from './components/Contact';
 
 function App() {
     return (
@@ -16,6 +20,10 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/sign-up" element={<SignUp />} />
                     <Route path="/login" element={<Login />} />
+                    <Route path="/dashboard" element={<Dashboard />} />
+                    <Route path="/transaction/:id" element={<TransactionDetail />} />
+                    <Route path="/faq" element={<FAQ />} />
+                    <Route path="/contact" element={<Contact />} />
                 </Routes>
                 <Footer />
             </div>
