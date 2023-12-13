@@ -263,6 +263,57 @@ footer {
     }
 
 
+.notifications .notification-item {
+    background-color: #ffeedd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.quick-actions a {
+    display: block;
+    background-color: #007aff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+    .quick-actions a:hover {
+        background-color: #005ec7;
+    }
+
+.transactions-list .transaction-item {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.transaction-detail p {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-item a {
+    color: #007aff; 
+    text-decoration: none;
+}
+
+    .transaction-item a:hover {
+        text-decoration: underline;
+    }
+
 /* Responsive design */
 @media (max-width: 768px) {
     nav {

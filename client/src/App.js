@@ -6,10 +6,10 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import Dashboard from './components/Dashboard';
-import TransactionDetail from './components/TransactionDetail';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
+import Dashboard from './pages/Dashboard';
+import TransactionDetail from './pages/TransactionDetail';
 
 function App() {
     return (
