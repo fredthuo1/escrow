@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\build",
+    "\\build\\contracts",
+    "\\client\\src\\components",
+    "\\client\\src\\data",
+    "\\client\\src\\pages",
+    "\\client\\src\\utilities",
+    "\\contracts",
+    "\\migrations",
+    "\\test"
+  ],
+  "SelectedNode": "\\contracts\\Escrow.sol",
+  "PreviewInSolutionExplorer": false
+}
